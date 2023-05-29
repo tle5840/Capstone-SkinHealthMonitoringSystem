@@ -1,29 +1,9 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Health Skin Monitoring Device</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Header with navigation links -->
-    <header>
-        <nav>
-            <ul>
-                <li class="active"><a href="home.html">Home</a></li>
-                <li><a href="data.html">Data</a></li>
-                <li><a href="settings.html">Settings</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="userprofile.html">User Profile</a></li>
-                <li><a href="alarms.html">Alarms</a></li>
-            </ul>
-        </nav>
-    </header>
+﻿<?php include 'header.php'; ?>
 
     <!-- Main content with device information -->
     <main>
         <h1>Conductivity/PH/Temperature Sensor Device</h1>
-        <p>Welcome to our sensor device that monitors conductivity, PH, and temperature levels. Our device is ideal for anyone who wants to monitor these levels in the skin to use as Bio-Markers.</p>
+        <p>Welcome to our sensor device that monitors conductivity, PH, and temperature levels. Our device is ideal for anyone who wants to monitor these levels in water, soil, or other substances.</p>
 
         <!-- Sensor readings -->
         <h2>Sensor Readings</h2>
@@ -76,9 +56,4 @@
         </div>
 
     </main>
-    <!-- Footer -->
-     <footer>
-    <p>&copy; 2023 Conductivity/PH/Temperature Sensor Device. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+<?php include 'footer.php'; ?>
